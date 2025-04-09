@@ -8,6 +8,8 @@ namespace Day18
 {
     public class Hotel
     {
+        public int Count { get; set; }
+
         public int Id { get; set; }
         public string Name { get; set; }
         public int CountOfStars { get; set; }
