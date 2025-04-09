@@ -20,6 +20,7 @@ namespace Day18
     /// </summary>
     public partial class MainWindow : Window
     {
+        public List<Hotel> CurrentHotels;
         public MainWindow()
         {
             InitializeComponent();
